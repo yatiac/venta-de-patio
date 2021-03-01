@@ -1,0 +1,21 @@
+.item {
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.item-image > img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.item-title > p {
+  padding: 0;
+  margin: 1px;
+  font-weight: bold;
+  word-wrap: break-word;
+  font-size: 1.1rem;
+}
+.item-price {
+  font-weight: 600;
+}
